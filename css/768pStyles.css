@@ -1,0 +1,58 @@
+.header_768component{
+    display: block;
+}
+
+.header_mobileComponet{
+    display: block;
+}
+
+.header_1300component{
+    display: none;
+}
+
+#header_socialMediaIcons_container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 18rem;
+    height: 3rem;
+}
+
+.header_socialMediaIcon{
+    display: block;
+    height: 1.6rem;
+    cursor: pointer;
+    transition: all 0.2s;
+}
+
+.header_socialMediaIcon:hover{
+    transform: scale(1.2);
+}
+
+#logo_header{
+    order: 1;
+}
+
+#header_socialMediaIcons_container{
+    order: 2;
+}
+
+#icon_menu{
+    order: 3;
+}
+
+#header_dropDownMenuWraper{
+    display: none;
+}
+
+#main_image768p{
+    display: none;
+}
+
+#main_image1300p{
+    display: block;
+}
+
+#main_image1500p{
+    display: none;
+}

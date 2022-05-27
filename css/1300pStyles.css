@@ -1,0 +1,190 @@
+.header_mobileComponet{
+    display: none;
+}
+
+.header_768component{
+    display: block;
+}
+
+.header_1300component{
+    display: block;
+}
+
+
+
+header p{
+    color: #fff;
+    font-family: "Source Sans Pro", sans-serif;
+    font-size: 1.4rem;
+    font-weight: 400;
+    line-height: 3rem;
+}
+
+#header_address::before{
+    content: url('../assets/icons//pinLocation_icon.svg');
+    display: inline-block;
+    height: 1.6rem;
+    width: 1.6rem;
+    margin-right: 0.5rem;
+}
+
+#header_phone::before{
+    content: url('../assets/icons/phone_icon.svg');
+    display: inline-block;
+    height: 1.6rem;
+    width: 1.6rem;
+    margin-right: 0.5rem;
+}
+
+#header_workingHours::before{
+    content: url('../assets/icons/clock_icon.svg');
+    display: inline-block;
+    height: 1.6rem;
+    width: 1.6rem;
+    margin-right: 0.5rem;
+}
+
+#header_contactButton{
+    padding: 1rem;
+    border: none;
+    border-radius: 5px;
+    background-color: #363636;
+    color: #fff;
+    font-size: 1.4rem;
+    font-weight: bold;
+   
+}
+
+#logo_header{
+    order: 1;
+}
+
+#header_socialMediaIcons_container{
+    order: 2;
+}
+
+#header_contactButton{
+    order: 3;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+
+#header_contactButton:hover{
+    background-color: #ff6600;
+}
+
+#header_dropDownMenuWraper{
+    height: 6rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    z-index: 20;
+    padding: 0 8rem;
+}
+
+
+#logo_dropDownMenu{
+    width: 15rem;
+    z-index: 21;
+
+}
+
+#dropDownMenuWraper_background{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    opacity: 0.9;
+    top: 0;
+    left: 0;
+    background-color: #262626;
+}
+
+#dropDownMenu{
+    display: flex;
+    z-index: 22;
+}
+
+.main_image{
+    top: -6rem;
+    
+}
+
+#dropDownMenu{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.dropDownMenu_item{
+    margin-left: 1rem;
+    position: relative;
+    padding: 1.5rem 0;
+}
+
+.dropDownMenu_item:hover .dropDownMenu_subMenu{
+    display: block;
+}
+
+.dropDownMenu_subMenu .dropDownMenu_subItem a{
+    width: 30rem;
+    height: 5rem;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding-left: 3rem;
+    border-bottom: 1px solid gray;
+    border-left: 5px solid #ccc;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 1.6rem;
+    font-weight: 400;
+    background-color: #ccc;
+    color: #333;
+    transition: all 0.4s;
+}
+
+.dropDownMenu_subMenu .dropDownMenu_subItem a:hover{
+    border-left: 5px solid #E6A322;
+    background-color: #fff;
+    
+}
+
+
+.dropDownMenu_subMenu{
+    display: none;
+    position: absolute;
+    background-color: #ccc;
+    top: 5.8rem;
+    left: 0;
+    z-index: 50;
+}
+
+.dropDownMenu_item a{
+    display: inline-block;
+    padding: 0.5rem 1.2rem;
+    font-family: Monserrat, Verdana, Geneva, Tahoma, sans-serif ;
+    font-size: 1.4rem;
+    font-weight: 700;
+    color: #fff;
+    text-align: center;
+    text-decoration: none;
+    transition: all 0.4s;
+}
+
+.dropDownMenu_item > a:hover{
+    color: #E6A322;
+}
+
+#main_image768p{
+    display: none;
+}
+
+#main_image1300p{
+    display: none;
+}
+
+#main_image1500p{
+    display: block;
+}
+
