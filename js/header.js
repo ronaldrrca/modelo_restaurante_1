@@ -41,4 +41,3 @@ switch (pageName) {
         document.getElementById("mobile_item_index").style.color = "#E6A322"
         break;
 }
-console.log(url)

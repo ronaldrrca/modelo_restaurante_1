@@ -188,3 +188,38 @@ header p{
     display: block;
 }
 
+#home_h1, .home_titles{
+    font-size: 4rem;
+}
+
+.introducing_ourselves_img{
+    display: block;
+    position: absolute;
+    top: 1.5rem;
+}
+
+#introducing_ourselves-img-1{
+    width: 18rem;
+    right: 0;
+}
+
+#introducing_ourselves-img-2{
+    width: 12rem;
+    left: 2rem;
+    transform: rotate(45deg);
+}
+
+#home_slider_container{
+    height: 50rem;
+}
+
+.popularDish{
+    width: 25%;
+    overflow: hidden;
+}
+
+.popularDish img:hover{
+    filter: brightness(50%);
+} 
+
+

@@ -56,3 +56,25 @@
 #main_image1500p{
     display: none;
 }
+
+.fancy_letter{
+    font-size: 4.5rem;
+}
+
+#home_h1, .home_titles{
+    font-size: 3rem;
+}
+
+.introducing_ourselves_img{
+    display: none;
+}
+
+#home_slider_container{
+    height: 30rem;
+}
+
+.popularDish{
+    width: 50%;
+}
+
+    
