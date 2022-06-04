@@ -222,4 +222,27 @@ header p{
     filter: brightness(50%);
 } 
 
+.mobile_component{
+    display: none;
+}
+
+#footer_section_a, #footer_section_b{
+    flex-direction: row;
+    padding: 0 5rem;
+}
+
+#footer_section_b{
+    justify-content: space-around;
+}
+
+footer{
+    height: 30rem;
+}
+
+
+#accep_cc{
+    width: 20rem;
+}
+
+
 
