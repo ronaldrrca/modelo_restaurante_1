@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Reaturante</title>
+    <link rel="shortcut icon" href="./assets/icons/icon_cubiertos.svg" type="image/x-icon">
 </head>
 <body>
     <header>
@@ -12,9 +12,10 @@
     </header>
     <main>
         <?php include './components/navDropDown.php' ?>
-        <img class="main_image" id="main_image768p" src="./assets/images/mainImage-768x384p-72dpi.webp" alt="banner de comida, ingredientes y elementos de cocina">
-        <img class="main_image" id="main_image1300p" src="./assets/images/mainImage-1300x650p-72dpi.webp" alt="banner de comida, ingredientes y elementos de cocina">
-        <img class="main_image" id="main_image1500p" src="./assets/images/mainImage-1500x750p-72dpi.webp" alt="banner de comida, ingredientes y elementos de cocina">
+        <a href="https://codews.co/contactanos.php"><div id="consult">Consulta <br>sin costo</div></a>
+        <img class="main_image" id="main_image768p" src="./assets/images/mainImage-768x384p-72dpi.jpg" alt="banner de comida, ingredientes y elementos de cocina">
+        <img class="main_image" id="main_image1300p" src="./assets/images/mainImage-1300x650p-72dpi.jpg" alt="banner de comida, ingredientes y elementos de cocina">
+        <img class="main_image" id="main_image1500p" src="./assets/images/mainImage-1500x750p-72dpi.jpg" alt="banner de comida, ingredientes y elementos de cocina">
         <section id="introducing_ourselves" class="home_section">
             <img id="introducing_ourselves-img-1" class="introducing_ourselves_img" src="./assets/images/introducing_ourselves-img-1.webp" alt="cesta de verduras">
             <img id="introducing_ourselves-img-2" class="introducing_ourselves_img" src="./assets/images/introducing_ourselves-img-2.webp" alt="cesta de verduras">
@@ -29,9 +30,11 @@
             </div>
             <P class="home_normalText">Ingredientes de la mejor calidad, como en las recetas tradicionales, srevidos con pasión para nuestros clientes. Estaremos complacidos de darle la bienvenida a nuestro restaurant</P>
             <a id="knowUs" href="#">CONOCE NUESTRA HISTORIA</a>
-            <figure id="home_slider_container">
-                <img id="sliderImg" src="./assets/images/slider_home-1-1500x999.webp" alt="">
-            </figure>
+            <picture id="home_slider_container">
+                <source id="source_768" media="(max-width:768px)" srcset="./assets/images/slider_home-1-768x511.jpg">
+                <source id="source_1300" media="(max-width:1300px)" srcset="./assets/images/slider_home-1-1300x866.jpg">
+                <img id="sliderImg" src="./assets/images/slider_home-1-1500x999.jpg" alt="imagen de restaurante">
+            </picture>
         </section>
         <section class="home_section">
             <p class="fancy_letter">Descubre</p>

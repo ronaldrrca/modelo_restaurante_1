@@ -1,8 +1,8 @@
 <!DOCTYPE html>
     <nav id="header_dropDownMenuWraper">
         <div id="dropDownMenuWraper_background" ></div>
-        <img id="logo_dropDownMenu" src="./assets/icons/logoV2.svg" alt="icono logo">    
-        <ul id="dropDownMenu">
+        <a href="https://codews.co/index.php"><img id="logo_dropDownMenu" src="./assets/icons/logoV2.svg" alt="icono logo"></a>
+            <ul id="dropDownMenu">
             <li class="dropDownMenu_item"><a id="item_index" href="index.php">INICIO</a></li>
             <li id="item_laEmpresa" class="dropDownMenu_item"><a href="#">LA EMPRESA</a></li>
             <li class="dropDownMenu_item"><a id="item_menu" href="#">MENU</a>

@@ -244,5 +244,12 @@ footer{
     width: 20rem;
 }
 
+#consult{
+    top: 10rem;
+    cursor: pointer;
+}
 
+#header_dropDownMenuWraper > a{
+    z-index: 20;
+}
 

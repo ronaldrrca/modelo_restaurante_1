@@ -4,14 +4,18 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <meta name="description" content="desarrollo web, landing pages, paginas web, sitios web, 
+                                        aplicaciones web, diseño responsivo, web development, 
+                                        web pages, web sites, web apps, responsive design.">
+    <meta name="robots" content="index.follow">
+    <title>Restaurante</title>
     <link rel="stylesheet" href="../css/general_styles.css">
     <link rel="stylesheet" href="../css/768pStyles.css" media="screen and (min-width: 768px)">
     <link rel="stylesheet" href="../css/1300pStyles.css" media="screen and (min-width: 1300px)">
 </head>
     <div id="header_container">
         <div id="header_infoWraper">
-            <img class="header_mobileComponet" id="logo_header" src="../assets/icons/logoV2.svg" alt="logo">
+            <a href="https://codews.co/index.php"><img class="header_mobileComponet" id="logo_header" src="../assets/icons/logoV2.svg" alt="logo"></a>
             <img class="header_mobileComponet" id="icon_menu" src="../assets/icons/icon_menu.svg" alt="icono de menu">
             <img class="header_mobileComponet" id="icon_closeMenu" src="../assets/icons/close_icon.svg" alt="icono de cerrar">
             <ul id="mobileMenu">

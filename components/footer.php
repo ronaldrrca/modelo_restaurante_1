@@ -12,11 +12,11 @@
         </div>
         <div id="footer_section_b">
             <div id="footer_socialMedia">
-                <a href=""><img src="../assets/icons/linkedin_icon.svg" alt="icono linkedin"></a>
-                <a href=""><img src="../assets/icons/twitter_icon.svg" alt="icono twitter"></a>
-                <a href=""><img src="../assets/icons/instagram_icon.svg" alt="icono instagram"></a>
-                <a href=""><img src="../assets/icons/pinterest_icon.svg" alt="icono pinterest"></a>
-                <a href=""><img src="../assets/icons/youtube_icon.svg" alt="icono youtube"></a>
+                <a href="https://codews.co/contactanos.php"><img src="../assets/icons/linkedin_icon.svg" alt="icono linkedin"></a>
+                <a href="https://codews.co/contactanos.php"><img src="../assets/icons/twitter_icon.svg" alt="icono twitter"></a>
+                <a href="https://codews.co/contactanos.php"><img src="../assets/icons/instagram_icon.svg" alt="icono instagram"></a>
+                <a href="https://codews.co/contactanos.php"><img src="../assets/icons/pinterest_icon.svg" alt="icono pinterest"></a>
+                <a href="https://codews.co/contactanos.php"><img src="../assets/icons/youtube_icon.svg" alt="icono youtube"></a>
             </div>
             <p id="footer_copyRight">&copy Copyrights <span>Codews</span></p>
         </div>
